@@ -37,3 +37,18 @@ String[] search2(String[]byListe,String tekst){
   String[] resultat = {""};
   return resultat;
 }
+
+void test3(){
+  String[] byListe = {"Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"};
+  String[] resultat = search(byListe,"*");
+  if(resultat.length==16);{
+     println("success test2");
+  }else{
+    println("failure test2");
+  }
+}
+
+String[] search3(String[]byListe,String tekst){
+  String[] resultat = {""};
+  return resultat;
+}
