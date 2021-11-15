@@ -40,9 +40,9 @@ void test3(){
   String[] byListe = {"Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"};
   String[] resultat = search(byListe,"*");
   if(resultat.length==16){
-     println("success test2");
+     println("success test3");
   }else{
-    println("failure test2");
+    println("failure test3");
   }
 }
 
